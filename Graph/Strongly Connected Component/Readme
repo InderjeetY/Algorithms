@@ -1,0 +1,13 @@
+There might be dependencies between two objects say two topics.
+For example, it’s probably necessary to understand what a variable declaration is before you start trying to learn about scope, and it’s probably necessary to understand something about types before you can understand a variable declaration.
+For example, topic A may require that you first understand B. Topic B may require that you first understand C and C may require that you first understand A.
+In cases like this, the best you can do is to try to introduce all of the topics at once during the same lecture.
+This program finds sets of topics like these and reports them. This way, an instructor can think ahead a bit and try to anticipate lectures that will go a little bit long.
+
+This program finds Strongly Connected Components.
+Input
+Input is on standard input. It will start with a positive integer, n. This gives the number of different topics that need to be covered in the course. The next n lines each give the name of a topic.
+All topic names are sequences of non-whitespace characters (so they should be easy to parse). The list of topics is followed by a non-negative integer m and a list m of dependencies between pairs of topics.
+A dependency is given as a pair of course topics where you must understand the first topic before you can understand the second. For example, if a dependency is given as:
+types declarations
+it means you have to understand types in order to understand declarations.
