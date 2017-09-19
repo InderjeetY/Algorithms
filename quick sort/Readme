@@ -1,0 +1,4 @@
+In quicksort, normally we assume the base case to be one-element list. In practice, it may be faster to switch to a different sort when the list size gets small enough, without waiting until it reaches zero.
+The program reads a sequence of 32-bit numbers form standard input. It will store them in an an array, sort them with quicksort, then print the sorted results to standard output, one value per line.
+The program takes a command-line argument, k. This will tell it when to change sorting strategies.
+When recursion reaches a list size of k or smaller, the quicksort will just sort the list using bubble sort, rather than continuing to quicksort it recursively.
