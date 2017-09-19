@@ -1,0 +1,12 @@
+The program implements a heap with following properties.
+The root node stored in element zero in an array, its three children will be stored in elements 1 . . . 3, and so on.
+The heap is a min-heap, stored in a resizable array (ArrayList).
+Two functions (methods) are implemented for manipulating the heap.
+An insert() function will add an arbitrary value to the heap, and a removeMin() function will remove the smallest value and
+return it.
+Using the heap and these two functions, a sequence of commands from standard input is read, one command per line. Each command will look like one of the following:
+• add v
+This inserts the given value, v to the heap, where v is a 32-bit, signed value.
+• remove
+This removes the minimum value from the heap and prints it on a line to standard output.
+Commands will continue until the end-of-file on standard input. The program assumes incorrect input is not provided
