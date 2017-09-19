@@ -1,0 +1,6 @@
+Common Substring Counting
+Consider the two strings below. The first string has 28 substrings, all of them different. For example “abcd” and “cdef” are both four-character substrings of the first string. The second string has 36 substrings, but some of them are duplicates.
+abcdefg
+cdefabab
+The code counts the number of different strings that are substrings of both of two input strings. For example, “f”, “ab” and “cde” are all substrings of the two strings above. The “ab” substring occurs twice in the second string, but it is counted only once.
+The program reads its input from standard input, one string per line. Input strings should consist of lower-case letters. As output, the program simply prints the number of different strings that are substrings of the two input strings.
